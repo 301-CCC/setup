@@ -1,0 +1,22 @@
+---
+title: "Exploring the data"
+output: html_document
+date: "2024-01-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load-libraries}
+library(tidyverse)
+```
+
+
+```{r cars}
+summary(cars)
+```
+
+```{r}
+cars %>% ggplot(aes(x = speed, y = dist)) + geom_point()
+```

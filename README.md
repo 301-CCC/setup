@@ -1,2 +1,2 @@
 # setup
-Getting started 
+This is a test project as practice.
